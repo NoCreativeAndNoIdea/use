@@ -1,0 +1,9 @@
+{
+  "extends": "@no_idea/eslint-config-ts",
+  "rules": {
+    "array-bracket-newline": ["error", "consistent"],
+    "max-statements-per-line": ["error",{
+      "max": 3
+    }]
+  }
+}
