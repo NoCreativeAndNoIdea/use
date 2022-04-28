@@ -1,0 +1,18 @@
+{
+  "name": "@no_idea/utils",
+  "version": "0.0.1",
+  "author": "jixiaoqi",
+  "license": "MIT",
+  "main": "/dist/index.js",  
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint --fix"
+  },
+  "devDependencies": {
+    "@no_idea/eslint-config-ts": "^0.0.7",
+    "eslint": "^8.14.0",
+    "typescript": "^4.6.3"
+  },
+  "keywords": [],
+  "description": "no idea utils monorepo"
+}
