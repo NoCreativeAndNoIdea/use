@@ -51,7 +51,7 @@ for (const { globals, name, external, submodules, iife, build, cjs, mjs, dts, ta
 
     if(mjs){
       output.push({
-        'file': `packages/${name}/dist/${fn}.njs`,
+        'file': `packages/${name}/dist/${fn}.js`,
         'format': 'es',
       });
     }

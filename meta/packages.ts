@@ -25,6 +25,7 @@ export const packages: PackageManifest[] = [
     'display': 'no_idea utils',
     'globals': {},
     'build': true,
+    'mjs':true,
     'dts': true,
   },
 ];
