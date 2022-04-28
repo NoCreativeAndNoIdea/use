@@ -1,0 +1,1 @@
+export const generateCurrentTimestamps = () => Date.parse(new Date().toString());
