@@ -63,7 +63,7 @@ class Storage{
   }
 }
 
-export const useStorage = () => {
+const instance = () => {
   let instance: null | Storage = null;
   return (options: StorageOptions): Storage => {
     if(!instance){
@@ -72,5 +72,7 @@ export const useStorage = () => {
     return instance;
   };
 };
+
+export const useStorage = instance();
 
 export default Storage;
