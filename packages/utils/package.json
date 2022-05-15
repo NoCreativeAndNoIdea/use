@@ -1,6 +1,6 @@
 {
   "name": "@no_idea/utils",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "jixiaoqi",
   "license": "MIT",
   "main": "./dist/index.js",
