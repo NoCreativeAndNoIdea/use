@@ -63,6 +63,8 @@ class Storage{
   }
 }
 
+export type StorageInstance = typeof Storage;
+
 const instance = () => {
   let instance: null | Storage = null;
   return (options: StorageOptions): Storage => {
