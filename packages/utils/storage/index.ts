@@ -15,7 +15,7 @@ export interface StorageOptions{
   type: StorageType
 }
 
-class Storage{
+export class Storage{
   protected defaultConfig: StorageOptions = {
     'type': 'local',
   };
@@ -63,7 +63,7 @@ class Storage{
   }
 }
 
-export type StorageInstance = typeof Storage;
+export type StorageInstance = Storage;
 
 const instance = () => {
   let instance: null | Storage = null;
@@ -76,5 +76,3 @@ const instance = () => {
 };
 
 export const useStorage = instance();
-
-export default Storage;
